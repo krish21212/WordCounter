@@ -1,0 +1,35 @@
+body{
+    padding: 0px 100px;
+}
+h1{
+    margin-top: 50px;
+    text-align: center;
+    background-color: turquoise;
+    color: white;
+    padding: 10px;
+    margin-bottom: 0px;
+  
+}
+#textbox
+{
+    width: 99.5%;
+    border-color: turquoise;
+    font-size: 20px;
+    margin: 0px;
+}
+
+p
+{
+    text-align: center;
+    background-color: turquoise;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+}
+@media screen and (max-width: 800px) {
+#textbox{
+	width:98%;
+	position: flex;
+}
